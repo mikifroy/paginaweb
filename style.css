@@ -1,6 +1,51 @@
 body{
     font-family: 'Titillium Web', sans-serif;
 }
+
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+p{
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+.topmargin-xs{
+    margin-top: 15px;
+}
+.topmargin-sm{
+    margin-top: 30px;
+}
+.topmargin-lg{
+    margin-top: 60px;
+}
+
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn i{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.btn-light{
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #ffffff;
+}
+
+
+
 .navbar{
     background-color: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
@@ -33,6 +78,10 @@ body{
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
+    color: #ffffff;
+}
+
+.hero p{
     color: #ffffff;
 }
 
